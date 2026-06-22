@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD - This is the head of the site, metadata goes here such as CSS linking and site title -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Thinking - AT4</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- BODY - This is the body of the site, the viewable content goes here -->
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <!-- Your site logo should go here, it should also be clickable and send you to the home page -->
+        <div id="logo">
+            <a href="index.html">
+                <img src="./images/Logo.png" alt="Site Logo">
+            </a>
+        </div>
+
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="prototype_1.html">Prototype 1</a>
+            </li>
+
+            <li>
+                <a href="prototype_2.html">Prototype 2</a>
+            </li>
+            
+            <li>
+                <a href="final_design.html">Final Design</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- MAIN - The page content goes here, it may be different for each page -->
+
+    <main>
+        <div id="page">
+            <h1>Final Design</h1>
+                <p>This is the final design of the ESP32-C3 Zero case. This page will detail the improvements and changes made from the previous prototypes.</p>
+        
+            <h2>3D Model</h2>   
+                    <img src="./images/Final_Design_model.png" alt="3D Model" width="100%">
+            <h2>3D Print</h2>
+                    <img src="./images/Final_Design.png" alt="3D Print" width="100%">
+            <h2> Improvements from previous prototype </h2> 
+                    <p> Small adjustments made to the final design include a redesign of the button with added tactile feedback, colour and improved ergonomics. The final design includes a more consistent visual with the two tone colour scheme, displaying the case model number clearly on the surface.</p>
+            <h2> Comparison with Previous Prototypes </h2>
+            
+<table>
+    <thead>
+        <tr>
+            <th>Test Area</th>
+            <th>Prototype 1 Result</th>
+            <th>Prototype 2 Result</th>
+            <th>Improvement Made</th>
+            <th>Remaining Issue</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Fit</td>
+            <td>Lid was slightly bent</td>
+            <td>Lid fit better</td>
+            <td>Adjusted lid thickness</td>
+            <td>Thin nature of the lid remains fragile due to filament constraints.</td>
+        </tr>
+
+        <tr>
+            <td>USB access</td>
+            <td>Good fit</td>
+            <td>Unchanged</td>
+            <td>Unchanged</td>
+            <td>Slight hole on bevel edges may introduce moisture</td>
+        </tr>
+
+        <tr>
+            <td>Pin/button access</td>
+            <td>Buttons hard to press</td>
+            <td>Added texture to assist function</td>
+            <td>Added even more texture with larger shape</td>
+            <td>Buttons remain flimsy and may become damaged</td>
+        </tr>
+
+        <tr>
+            <td>Ventilation</td>
+            <td>Good ventilation</td>
+            <td>Unchanged</td>
+            <td>Unchanged</td>
+            <td>We believe ventilation from P1 was sufficient</td>
+        </tr>
+
+        <tr>
+            <td>Strength</td>
+            <td>Slightly too thin</td>
+            <td>Lid fits better</td>
+            <td>Changed lid insert to fit in better</td>
+            <td>Still slightly flimsy</td>
+        </tr>
+
+        <tr>
+            <td>Print quality</td>
+            <td>Texture slightly off</td>
+            <td>Printed smoother</td>
+            <td>Added multiple colours for visual appeal</td>
+            <td>Better filament could be used to improve print quality</td>
+        </tr>
+    </tbody>
+
+</table>
+
+            
+                    <h2> Final thoughts </h2>
+            <p> The final design successfully addresses the issues identified in the previous prototypes, providing a robust and user-friendly solution for protecting the ESP32-C3 Zero. It meets the requirements for protection, accessibility, and visual appeal. This design provides the user with a reliable and aesthetically pleasing option for their ESP32-C3 Zero while also keeping printing times low and cost effective.</p>
+        </div>
+    </main>
+    
+    <!-- FOOTER - This is the footer of the site (what is at the bottom of the page) -->
+    <footer>
+        <p>
+            Brodie Ross - Design Thinking - AT4
+        </p>
+    </footer>
+
+</body>
+</html>
